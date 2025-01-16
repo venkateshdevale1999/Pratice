@@ -1,13 +1,11 @@
-import React from 'react';
 import Logo from "../assests/logo.png"
 import "./Header.css"
 
 export const Header = () => {
   return (
-    <div>
-      <img src={Logo} className='logo' alt="" />
-
-
-    </div>
+    <div className="header123">
+      
+      <a href='/'><img className="logo" src={Logo} alt="" /></a>
+  </div>  
   )
 }
